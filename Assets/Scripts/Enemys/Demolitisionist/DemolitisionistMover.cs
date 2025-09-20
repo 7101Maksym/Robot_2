@@ -8,6 +8,7 @@ public class DemolitisionistMover : MonoBehaviour
 
 	private Vector2 _direction;
 	private float _speed = 1f;
+	public float speed;
 
     private void Awake()
 	{
@@ -20,6 +21,8 @@ public class DemolitisionistMover : MonoBehaviour
 		{
 			_rb.velocity = _direction * _speed;
 		}
+
+		speed = _speed;
 	}
 
 	public Vector2 SetNewDirection()
