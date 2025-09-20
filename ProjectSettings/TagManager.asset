@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Global player collider
+  - Local player collider
+  - Only down
+  - All player
+  - Enemy
+  - Interaction
+  - Roofs
+  - Player hitbox
+  - Enemy hitbox
+  - Player hurtbox
+  - Enemy hurtbox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3914319971
+    locked: 0
+  - name: Grass
+    uniqueID: 2423185199
+    locked: 0
+  - name: Floor
+    uniqueID: 4270393593
+    locked: 0
+  - name: Decor Layer 1
+    uniqueID: 1335949759
+    locked: 0
+  - name: Decor Layer 2
+    uniqueID: 9464311
+    locked: 0
+  - name: Decor Layer 3
+    uniqueID: 3770211473
+    locked: 0
+  - name: Enemy
+    uniqueID: 3577250025
+    locked: 0
+  - name: Gun
+    uniqueID: 3220428267
+    locked: 0
+  - name: Player
+    uniqueID: 1223127585
+    locked: 0
+  - name: Decor Layer 4
+    uniqueID: 1094245825
+    locked: 0
+  - name: Decor Layer 5
+    uniqueID: 1512549023
+    locked: 0
+  - name: Roofs
+    uniqueID: 614417635
+    locked: 0

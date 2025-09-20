@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: 675664a254b24ee4db986d595d892727
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monolith_animation_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe50fedf351165b4f9ecf21bbc2a32c2
+      internalID: 332713384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 846.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393e1e1dc2efc4b4696d05555b78189e
+      internalID: -1264542400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 846.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d56aa08bac802f4eb5d047d828230ce
+      internalID: 942647595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 846.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0344382e43f18b247a859ec059e3a621
+      internalID: -1736244318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 846.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00251c10ac804b4db3263787054289b
+      internalID: -36210822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 846.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2544c317cdfefd24197124cdab2e24e5
+      internalID: 2145761817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 846.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fef8529c7b93f46a2ee8d2232dca49
+      internalID: -1824777705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add69b3d73aa7ef40a2f92c61e6b2192
+      internalID: -577115732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 677.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38926e83c3eb9f42abffc89607bb184
+      internalID: -541584778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 677.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf6bea2d2f7e4d4eb10a04f4981a1d4
+      internalID: 257484224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 677.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc5ae29985979647a60859c61c8c22e
+      internalID: -1293725080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 677.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecf149c810e6314a8d1965c8f2db623
+      internalID: 408499593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 677.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70039ed8945f9554ca58ef85d177ed88
+      internalID: 583181331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 677.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7049ea54d8dc6b94d8b5cba0606610b2
+      internalID: -450956239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c4ea3bee8f9f24ea6789210a91cbe2
+      internalID: 260273139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 508.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bf36b27d4a0c34db93475370ded147
+      internalID: -1011250312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 508.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abbf20232ca697459da9703048f772c
+      internalID: -1015617200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 508.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cad6dcf9bbec345afde4d778eb4832
+      internalID: 296627062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 508.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e38754332eae243bd35a799713eb54
+      internalID: -518533819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 508.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8972566546206d4f816865e27ea9d99
+      internalID: 105607579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 508.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fc54c8c25b713458e91438da290ad3
+      internalID: 1347860032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31951f126f33eef4eba5c737cbba8bcc
+      internalID: 2132452139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 339.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6544b117c8086a741960358a2b34f086
+      internalID: -965471027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 339.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0581983f61045bd42ad5dee19f58597d
+      internalID: 1756256261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 339.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d166186c71f61034191e84fab0b3470a
+      internalID: 1358267216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 339.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae1dde02b4e2d4799bc1897c2a0eb5
+      internalID: 289737929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 339.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a86e329b05a914f8456441ff8c448b
+      internalID: -1409435361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 339.6667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704ba1fae7c82f24c90bd882e3b78836
+      internalID: -1405399577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170.66667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467c823cf16e47a4daa7b431750bd1db
+      internalID: -1971508627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 170.66667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc65e8802c10104d8cfd51949e7788e
+      internalID: 855542191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 170.66667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362cda0c88df8c14ca4a13be15d0970f
+      internalID: 1870187250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 170.66667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e998aec4a73494b84e5508bb40f448
+      internalID: -2138115949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 170.66667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2fb8de72c535349b7dda85263487e3
+      internalID: 1397822039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 170.66667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa270fca9a688b4f86897c5a67ef2b4
+      internalID: 1635937031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 170.66667
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316af9c84789b2a4694b99f323a37161
+      internalID: 887190735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6666718
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de7ae07c07068e4ba0f9dc58f6a26c0
+      internalID: -197155906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1.6666718
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a57f69b71d8c147aed3af83c24c746
+      internalID: 325726182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1.6666718
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df9d79b5b3209846939068d70880e1e
+      internalID: 898110022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1.6666718
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc629d2ebe53de458082c6968feba6e
+      internalID: 1690606237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1.6666718
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea0a268e77c39840a98a97f68ee9650
+      internalID: -1152149281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1.6666718
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dab9213115900b42afb22e75e549a95
+      internalID: -311800893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monolith_animation_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1.6666718
+        width: 54.285713
+        height: 169.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9daa7287f9ca74e9e49536b662872c
+      internalID: 497470254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      monolith_animation_sheet_0: 332713384
+      monolith_animation_sheet_1: -1264542400
+      monolith_animation_sheet_10: -1293725080
+      monolith_animation_sheet_11: 408499593
+      monolith_animation_sheet_12: 583181331
+      monolith_animation_sheet_13: -450956239
+      monolith_animation_sheet_14: 260273139
+      monolith_animation_sheet_15: -1011250312
+      monolith_animation_sheet_16: -1015617200
+      monolith_animation_sheet_17: 296627062
+      monolith_animation_sheet_18: -518533819
+      monolith_animation_sheet_19: 105607579
+      monolith_animation_sheet_2: 942647595
+      monolith_animation_sheet_20: 1347860032
+      monolith_animation_sheet_21: 2132452139
+      monolith_animation_sheet_22: -965471027
+      monolith_animation_sheet_23: 1756256261
+      monolith_animation_sheet_24: 1358267216
+      monolith_animation_sheet_25: 289737929
+      monolith_animation_sheet_26: -1409435361
+      monolith_animation_sheet_27: -1405399577
+      monolith_animation_sheet_28: -1971508627
+      monolith_animation_sheet_29: 855542191
+      monolith_animation_sheet_3: -1736244318
+      monolith_animation_sheet_30: 1870187250
+      monolith_animation_sheet_31: -2138115949
+      monolith_animation_sheet_32: 1397822039
+      monolith_animation_sheet_33: 1635937031
+      monolith_animation_sheet_34: 887190735
+      monolith_animation_sheet_35: -197155906
+      monolith_animation_sheet_36: 325726182
+      monolith_animation_sheet_37: 898110022
+      monolith_animation_sheet_38: 1690606237
+      monolith_animation_sheet_39: -1152149281
+      monolith_animation_sheet_4: -36210822
+      monolith_animation_sheet_40: -311800893
+      monolith_animation_sheet_41: 497470254
+      monolith_animation_sheet_5: 2145761817
+      monolith_animation_sheet_6: -1824777705
+      monolith_animation_sheet_7: -577115732
+      monolith_animation_sheet_8: -541584778
+      monolith_animation_sheet_9: 257484224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
