@@ -5,10 +5,10 @@ using UnityEngine;
 public class DroneController : MonoBehaviour
 {
     [SerializeField] private HitBoxManager _flamethroverHitBox;
+    [SerializeField] private FireRendererController _fireRendererController;
 
     private StateManager _stateManager;
     private DroneMove _droneMove;
-    private FireRendererController _fireRendererController;
     private DroneRendererController _droneRendererController;
     private InteractionScript _interactionScript;  
     private Rotatedrone _rotateDrone;
@@ -22,7 +22,6 @@ public class DroneController : MonoBehaviour
         _stateManager = GameObject.Find("StateManager").GetComponent<StateManager>();
 
         _droneMove = GetComponent<DroneMove>();
-        _fireRendererController = GetComponentInChildren<FireRendererController>();
         _droneRendererController = GetComponentInChildren<DroneRendererController>();
         _interactionScript = GetComponent<InteractionScript>();
         _rotateDrone = GetComponent<Rotatedrone>();
@@ -67,7 +66,12 @@ public class DroneController : MonoBehaviour
                     int myAngle = _rotateDrone.GetAngle();
                     _droneRendererController.Rotate(myAngle);
                     _droneRendererController.Move(new Vector2(data.Movement.y, data.Movement.x));
-                    _fireRendererController.SetAngle(myAngle);
+
+                    if (_stateManager.ShootingState != ShootingStates.Shoot)
+                    {
+                        _fireRendererController.SetAngle(myAngle);
+                    }
+
                     _droneLightsController.SetRotateOfLight(myAngle);
 
                     break;
@@ -84,6 +88,8 @@ public class DroneController : MonoBehaviour
                     if (!_isInShooting)
                     {
                         _isInShooting = true;
+
+                        _fireRendererController.gameObject.transform.root.position = transform.position;
 
                         _fireRendererController.Shoot(_stateManager.GunState);
                         _droneRendererController.Shoot(_stateManager.GunState);
@@ -126,15 +132,12 @@ public class DroneController : MonoBehaviour
         if (data.Shoot && _stateManager.ShootingState != ShootingStates.Shoot && _stateManager.FlyingState == FlyingStates.InAir)
         {
             _stateManager.ShootingState = ShootingStates.Shoot;
-        }
-        
-        if (_stateManager.ShootingState == ShootingStates.Shoot || _stateManager.FlyingState != FlyingStates.InAir)
-        {
             _stateManager.MovingState = MovingStates.NotMove;
         }
-        else
+        
+        if (_stateManager.FlyingState != FlyingStates.InAir)
         {
-            _stateManager.MovingState = MovingStates.Move;
+            _stateManager.MovingState = MovingStates.NotMove;
         }
 
         if (data.TakeoffOrLand > 0 && _stateManager.FlyingState == FlyingStates.OnGround)

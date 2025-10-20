@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -119,9 +118,6 @@ public class DroneRendererController : MonoBehaviour
         yield return new WaitForSeconds(2f);
 		
 		SetTypeOfAction(Actions.Moving);
-
-		yield return new WaitForSeconds(1f);
-
 		OnCanMove?.Invoke();
     }
 

@@ -17,5 +17,7 @@ public class DemolitisionistStats : CurrentStats
         MyHealths = MaxHealths;
         Attack = _myStats.Attack;
         Speed = _myStats.Speed;
+
+        Inited = true;
     }
 }

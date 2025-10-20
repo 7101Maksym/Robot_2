@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6019c36744bae294a88acfdf746bfd9c, type: 3}
   m_Name: DefaultDemolitisionistStats
   m_EditorClassIdentifier: 
-  MaxHealths: 100
+  MaxHealths: 50
   Attack: 50
   Speed: 1

@@ -20,7 +20,7 @@ public class HitBox : MonoBehaviour
             HurtBox _hurtBox = collider.gameObject.GetComponent<HurtBox>();
 
             healths = _hurtBox.TakeDamage(_damage);
-            Debug.Log($"{gameObject.transform.root} hit {_hurtBox.root}, {_hurtBox.root} healths = {healths}");
+            Debug.Log($"{gameObject.transform.root} hit {_hurtBox.root.name}, {_hurtBox.root.name} healths = {healths}");
         }
     }
 

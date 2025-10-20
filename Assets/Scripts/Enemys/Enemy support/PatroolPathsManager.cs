@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class PatroolPathsManager : MonoBehaviour
 {
 	public int StartPoint = 0;
-	public PatroolPoint[] PatroolPoints;
+	public Transform[] PatroolPoints;
 
 	[Header("Interface settings")]
 	[SerializeField] private Color _patroolColor = Color.gray;
@@ -17,18 +14,25 @@ public class PatroolPathsManager : MonoBehaviour
 	[SerializeField] private float _arrowLength = 0.5f;
 	[SerializeField] private float _arrowAngle = 0.2f;
 
+	private PointManager _pointManager;
+
+	private void Start()
+	{
+		PatroolPoints = _pointManager.GetPoints();
+	}
+
 	private void OnValidate()
 	{
-		PatroolPoints = GetComponentsInChildren<PatroolPoint>();
+		if (_pointManager == null)
+        {
+            _pointManager = GetComponent<PointManager>();
+        }
 
-		foreach (var point in PatroolPoints)
-		{
-			point.PointRadius = _pointRadius;
-		}
+        PatroolPoints = _pointManager.GetPoints();
 	}
 
 #if DEBUG
-    private void OnDrawGizmos()
+	private void OnDrawGizmos()
 	{
 		Gizmos.color = _patroolColor;
 
@@ -49,7 +53,7 @@ public class PatroolPathsManager : MonoBehaviour
 			Gizmos.DrawLine(PatroolPoints[i].transform.position, PatroolPoints[(i + 1) % PatroolPoints.Length].transform.position);
 
 			DrawArrows(i);
-        }
+		}
 	}
 
 	private void DrawArrows(int i)

@@ -11,16 +11,14 @@ public class EnemyGenerator : MonoBehaviour
     [SerializeField] private int _enemyCount;
 
     private Transform[] _positions;
+    private PointManager _pointManager;
 
     private bool _canGenerate = true;
 
     private void Awake()
     {
-        _positions = gameObject.transform.Find("GeneratePoints").GetComponentsInChildren<Transform>();
-    }
+        _pointManager = GetComponentInChildren<PointManager>();
 
-    private void Start()
-    {
         if (_collector.transform.childCount < _enemyCount)
         {
             StartCoroutine(AddEnemy());
@@ -39,11 +37,13 @@ public class EnemyGenerator : MonoBehaviour
 
     private IEnumerator AddEnemy()
     {
+        _positions = _pointManager.GetPoints();
+
         int idx = UnityEngine.Random.Range(0, _positions.Length - 1);
 
         yield return new WaitForSeconds(_generatingDelay);
 
-        _enemy.transform.position = _positions[idx].position;
+        _enemy.transform.position = _positions[idx].transform.position;
 
         Instantiate(_enemy, _collector);
 

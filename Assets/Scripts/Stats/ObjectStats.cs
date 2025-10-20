@@ -5,4 +5,6 @@ public class CurrentStats : MonoBehaviour
     public float MaxHealths { get; set; }
     public float MyHealths { get; set; }
     public float Speed { get; set; }
+
+    public bool Inited { get; set; } = false;
 }

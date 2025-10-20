@@ -56,15 +56,13 @@ public class DemolitisionistAI : MonoBehaviour
 		_view = GetComponentInChildren<FieldOfView>();
 		_hitBox = GetComponentInChildren<HitBoxManager>();
 
-		_mover.SetSpeed(_stats.Speed);
-
 		if (_movingType == MovingType.Patrool)
 		{
 			if (_paths != null)
 			{
-				foreach (PatroolPoint point in _paths.PatroolPoints)
+				foreach (Transform point in _paths.PatroolPoints)
 				{
-					_points.Add(point.transform.position);
+					_points.Add(point.position);
 				}
 
 				_pointIndex = (_paths.StartPoint + _points.Count - 2) % _points.Count;
@@ -86,7 +84,8 @@ public class DemolitisionistAI : MonoBehaviour
 
 	private void Start()
 	{
-		_hitBox.SetParam(_stats.Attack);
+        _mover.SetSpeed(_stats.Speed);
+        _hitBox.SetParam(_stats.Attack);
 	}
 
 	private void FixedUpdate()
@@ -177,23 +176,30 @@ public class DemolitisionistAI : MonoBehaviour
 
 	public IEnumerator SettingNewDirection(bool use_delay)
 	{
-		if (use_delay)
+		if (Status == MyStatus.Moving)
 		{
-			yield return new WaitForSeconds(10);
+			if (use_delay)
+			{
+				yield return new WaitForSeconds(10);
+			}
+			else
+			{
+				yield return null;
+			}
+
+			do
+			{
+				_direction = _mover.SetNewDirection();
+			} while (Physics2D.Raycast(transform.position, _direction, _neededDistanceToObstacle, _obstacles));
+
+			_renderer.SetAnimatingDirection(_direction);
+
+			_isMoving = false;
 		}
 		else
 		{
-			yield return null;
-		}
-
-		do 
-		{
-			_direction = _mover.SetNewDirection();
-		} while (Physics2D.Raycast(transform.position, _direction, _neededDistanceToObstacle, _obstacles));
-
-		_renderer.SetAnimatingDirection(_direction);
-
-		_isMoving = false;
+            yield return null;
+        }
 	}
 
 	private float GetRightAngle(Vector2 direct)
